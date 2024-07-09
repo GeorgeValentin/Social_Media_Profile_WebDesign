@@ -3,13 +3,13 @@
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: $grey;
     font-style: italic;
     color: $white;
 
     &_content {
-        font-size: 2rem;
+        font-size: 1rem;
 
         a {
             text-decoration: none !important;

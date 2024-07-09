@@ -1,6 +1,5 @@
 @media(max-width: 375px) {
     .card-container {
-        height: 100%;
         margin: 0 !important;
 
         &_element {
@@ -48,8 +47,10 @@
     }
 
     .footer-container {
-        display: none;
-        padding: 0.5rem !important;
-        font-size: 0.9rem !important;
+        padding: 1rem !important;
+
+        div {
+            font-size: 0.75rem !important;
+        }
     }
 }

@@ -3,7 +3,6 @@
 }
 
 body {
-    height: 100vh;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -11,6 +10,7 @@ body {
     font-variation-settings:
     "slnt" 0;
     background-color: $off-black !important;
+    overflow: hidden !important;
 }
 
 .card-container {
@@ -18,10 +18,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 96.5vh;
+    height: 93vh;
 
     &_element {
-        width: 55rem;
+        width: 30rem;
         margin: 3rem auto;
         background-color: $dark !important;
         border-radius: 1.5rem;
