@@ -1,0 +1,20 @@
+.footer-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: $grey;
+    font-style: italic;
+    color: $white;
+
+    &_content {
+        font-size: 2rem;
+
+        a {
+            text-decoration: none !important;
+            font-weight: bold;
+            color: $green;
+        }
+    }
+}

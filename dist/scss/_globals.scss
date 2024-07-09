@@ -1,0 +1,30 @@
+:root {
+    font-size: 14px;
+}
+
+body {
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+    background-color: $off-black !important;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 96.5vh;
+
+    &_element {
+        width: 55rem;
+        margin: 3rem auto;
+        background-color: $dark !important;
+        border-radius: 1.5rem;
+        color: $white;
+    }
+}
