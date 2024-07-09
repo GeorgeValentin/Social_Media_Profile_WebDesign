@@ -19,7 +19,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Live Site URL: [Hosted with Github Pages](TBA)
+- Live Site URL: [Hosted with Github Pages](https://georgevalentin.github.io/Social_Media_Profile_WebDesign/)
 
 ## My process
 
